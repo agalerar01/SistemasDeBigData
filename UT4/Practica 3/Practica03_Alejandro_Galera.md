@@ -58,6 +58,8 @@ plt.xticks(range(1, 11))
 plt.show()
 ```
 
+![alt text](codo.png)
+
  **Resultado:**
 El “codo” se observa en **K = 4**, donde la reducción de la inercia deja de ser pronunciada.
 
@@ -111,6 +113,8 @@ plt.show()
 Las “X” rojas representan los centroides de cada grupo.
 
 ---
+
+![alt text](Scatterplot.png)
 
 # 5. Análisis de Perfiles
 
