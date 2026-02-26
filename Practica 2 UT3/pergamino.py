@@ -3,6 +3,7 @@ import pandas as pd
 import time
 
 url = "https://pokeapi.co/api/v2/pokemon?limit=20"
+#adfasdf
 
 pokemon_detalles = []
 
