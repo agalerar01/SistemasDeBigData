@@ -32,7 +32,16 @@ section[data-testid="stSidebar"] {
 
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv("players_data.csv")
+
+    import os
+
+    ruta = os.path.join(
+        os.path.dirname(__file__),
+        "players_data.csv"
+    )
+
+    df = pd.read_csv(ruta)
+
     return df
 
 df = cargar_datos()
